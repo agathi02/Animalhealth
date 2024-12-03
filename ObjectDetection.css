@@ -1,0 +1,116 @@
+/* Container Styling */
+.container {
+    max-inline-size: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styling */
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-block-end: 20px;
+  }
+  
+  /* Video and Canvas Styling */
+  .video-container {
+    position: relative;
+    inline-size: 100%;
+    max-inline-size: 100%;
+    margin: 0 auto;
+  }
+  
+  video {
+    display: block;
+    inline-size: 100%;
+    block-size: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Canvas styling */
+  canvas {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    pointer-events: none; /* Ensures that the canvas does not block interaction with the video */
+    border-radius: 8px;
+  }
+  
+  /* Bounding Box Styling */
+  canvas {
+    border: 2px solid rgba(0, 255, 0, 0.6);
+  }
+  
+  canvas rect {
+    stroke-width: 3px;
+    stroke: green;
+    fill: rgba(0, 255, 0, 0.3);
+  }
+  
+  canvas text {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    fill: green;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+  
+  .temperature h3 {
+    font-size: 1.5rem;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  /* ObjectDetection.css */
+
+/* Container and layout styling */
+.container {
+    margin-top: 30px;
+  }
+  
+  .video-element {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .canvas-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Ensures canvas doesn't block video interaction */
+  }
+  
+  .temperature {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-4 {
+    margin-top: 4rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 4rem;
+  }
+  
+  .mt-3 {
+    margin-top: 3rem;
+  }
+  
